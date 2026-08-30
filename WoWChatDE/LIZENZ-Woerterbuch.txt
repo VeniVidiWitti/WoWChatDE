@@ -1,0 +1,37 @@
+Herkunft der Datei Words.lua
+============================
+
+Words.lua wurde aus dem Ding-Woerterbuch der TU Chemnitz erzeugt:
+
+    Ding - A Dictionary Lookup Program / German-English Dictionary
+    Copyright (C) Frank Richter <frank.richter.tu-chemnitz.de> 1995-2020
+    https://www-user.tu-chemnitz.de/~fri/ding/
+
+    Lizenz: GNU General Public License, Version 2 oder (nach Wahl) spaeter.
+    Volltext: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+
+Verwendet wurde die Debian/Ubuntu-Paketfassung "trans-de-en" 1.9-7,
+Datei /usr/share/trans/de-en.
+
+Was daraus gemacht wurde
+------------------------
+Aus 206.413 Quellzeilen wurden Paare Englisch -> Deutsch gebildet. Behalten
+wurden nur einwortige englische Stichwoerter mit einwortiger deutscher
+Bedeutung. Eigennamen und deutsche Funktionswoerter wurden entfernt. Gab es
+mehrere Bedeutungen, gewann die im Deutschen gebraeuchlichste - ohne diesen
+Schritt hiesse "drag" hier "Dregganker" statt "ziehen". Die rund 250
+haeufigsten englischen Woerter wurden ausgelassen, weil ein Rohwoerterbuch
+dort regelmaessig die falsche Bedeutung waehlt ("have" -> "bringen"); diese
+Woerter stehen von Hand gepflegt in Dictionary.lua.
+
+Uebrig geblieben sind 25.000 Eintraege.
+
+Folgen fuer die Weitergabe
+--------------------------
+Solange dieses Addon nur privat genutzt wird, ergeben sich daraus keine
+Pflichten. Wird es weitergegeben oder veroeffentlicht, muss das unter der
+GPL v2 geschehen, unter Nennung der obigen Herkunft und mit Angebot des
+Quellmaterials.
+
+Dictionary.lua und Words.lua sind Daten, Core.lua ist der Programmcode
+dieses Addons.

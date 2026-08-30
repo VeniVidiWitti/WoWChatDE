@@ -1,0 +1,17 @@
+## Interface: 20506, 11509, 50504, 120100
+## Title: |cff33ff99Chat DE|r
+## Notes: Uebersetzt eingehende Chatnachrichten ins Deutsche (Offline-Woerterbuch). Von Veni_Vidi_Witti gemeinsam mit Claude (Anthropic).
+## Notes-deDE: Übersetzt eingehende Chatnachrichten ins Deutsche (Offline-Wörterbuch). Von Veni_Vidi_Witti gemeinsam mit Claude (Anthropic).
+## Author: Veni_Vidi_Witti
+## Version: 2.1
+## Category: Chat
+## Category-deDE: Chat
+## X-License: GPL-2.0-or-later
+## X-Credits: Veni_Vidi_Witti (Idee, Anforderungen, Erprobung) und Claude von Anthropic (Umsetzung)
+## X-Category: Chat
+## IconTexture: Interface\Icons\INV_Scroll_03
+## SavedVariables: WoWChatDE_Config
+
+Dictionary.lua
+Words.lua
+Core.lua
