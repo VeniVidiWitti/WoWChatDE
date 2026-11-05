@@ -1,0 +1,3 @@
+anthropic
+pystray
+Pillow

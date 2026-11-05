@@ -1,17 +1,25 @@
-## Interface: 20506, 11509, 50504, 120100
+## Interface: 16001
 ## Title: |cff33ff99Chat DE|r
-## Notes: Uebersetzt eingehende Chatnachrichten ins Deutsche (Offline-Woerterbuch). Von Veni_Vidi_Witti gemeinsam mit Claude (Anthropic).
-## Notes-deDE: Übersetzt eingehende Chatnachrichten ins Deutsche (Offline-Wörterbuch). Von Veni_Vidi_Witti gemeinsam mit Claude (Anthropic).
+## Notes: Uebersetzt Chatnachrichten (Offline-Woerterbuch) - optional mit Claude-Hilfe ueber das Begleitprogramm. In Entwicklung.
+## Notes-deDE: Übersetzt Chatnachrichten (Offline-Wörterbuch) - optional mit Claude-Hilfe über das Begleitprogramm.|n|cffff8040In Entwicklung - kann Fehler enthalten. Nutzung auf eigene Verantwortung.|r
 ## Author: Veni_Vidi_Witti
-## Version: 2.1
+## Version: 3.0.0-beta
 ## Category: Chat
 ## Category-deDE: Chat
 ## X-License: GPL-2.0-or-later
 ## X-Credits: Veni_Vidi_Witti (Idee, Anforderungen, Erprobung) und Claude von Anthropic (Umsetzung)
-## X-Category: Chat
 ## IconTexture: Interface\Icons\INV_Scroll_03
-## SavedVariables: WoWChatDE_Config
+## SavedVariables: WoWChatDE_Config, WoWChatDE_Outbox, WoWChatDE_History
+## AddonCompartmentFunc: WoWChatDE_OnCompartmentClick
+## AddonCompartmentFuncOnEnter: WoWChatDE_OnCompartmentEnter
+## AddonCompartmentFuncOnLeave: WoWChatDE_OnCompartmentLeave
 
+Widgets.lua
 Dictionary.lua
 Words.lua
 Core.lua
+Inbox.lua
+Claude.lua
+Notice.lua
+Settings.lua
+Assistant.lua
